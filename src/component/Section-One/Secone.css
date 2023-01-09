@@ -76,7 +76,7 @@
 
 .text-get {
   margin-left: 515px !important;
-  top: -168px !important;
+  top: -199px !important;
   font-family: 'Oswald';
   font-size: 21px;
   color: black !important;
@@ -84,16 +84,41 @@
 
 .text-start {
   margin-left: 87px !important;
-  top: -168px !important;
+  top: -199px !important;
   font-family: 'Oswald';
   font-size: 21px;
   color: black !important;
 }
 
-.price{
+.price {
   color: #EF512F;
+  font-size: 47px;
+  font-weight: bold;
 }
 
+
+.sticky-btn {
+  position: absolute;
+  top: 693px;
+  margin: 0;
+  left: 91%;
+  background: #ef512f;
+  padding: 14px;
+  transform: rotate(-90deg);
+  width: 12%;
+  color: #fff;
+  font-family: 'Oswald';
+  text-align: center;
+  border-radius: 45px;
+  float: right;
+}
+
+
+.mc-main-row{
+  background: url("assets/BG.png");
+  background-repeat: no-repeat;
+  background-position: -10% -100%;
+}
 
 a {
   text-decoration: none !important;
@@ -133,9 +158,15 @@ a {
 
 .text-get {
   margin-left: 255px !important;
-  top: -168px !important;
+  top: -200px !important;
   font-family: 'Oswald';
   font-size: 21px;
+}
+
+.mc-main-row {
+
+  background-repeat: no-repeat;
+  background-position: -30% -162%;
 }
 
 }

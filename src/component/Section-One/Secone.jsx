@@ -1,6 +1,7 @@
 import React from "react";
 import "../Section-One/Secone.css";
-import laptop from "../Section-One/Laptop.png";
+import laptop from "../Section-One/assets/Laptop.png";
+import arrow from "../Section-One/assets/arrow.png"
 function Secone() {
   return (
     <div>
@@ -24,12 +25,26 @@ function Secone() {
               <li>Conceptual Ecommerce Designs</li>
               <li>Easy Payment Module Integrations</li>
             </ul>
+            <br/>
+            <a href="/">
+            <div className="arrow-img rounded-circle mc-content">
+           <img src={arrow} alt="" className="arrow-img" />
+            </div>
+            <span className="mc-content text-get">GET A QUOTE</span>
+            </a>
+            <span className="mc-content text-start">STARTTING FROM <span className="price">$599</span></span>
           </div>
 
           <div className="col-4 mc-laptop-col">
+        
+            <div className="mc-laptop-sub-container">
             <img src={laptop} alt="" className="laptop-img" />
+            </div>
+
+            
+
           </div>
-        </div>
+          </div>
       </div>
     </div>
   );

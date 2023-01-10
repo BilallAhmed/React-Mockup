@@ -2,14 +2,24 @@ import React from "react";
 import "../Section-One/Secone.css";
 import laptop from "../Section-One/assets/Laptop.png";
 import arrow from "../Section-One/assets/arrow.png";
+import mail from "../header/Mail-icon.png";
 function Secone() {
   return (
     <div>
-      <div className="container-fluid my-5 mc-container">
+      <div className="container-fluid my-5 mc-container ">
         <div className="row my-4 mc-main-row">
           <a className="sticky-btn" href="/">
             CONTACT US !
           </a>
+
+          <p className="sticky-scroll">
+            SCROLL DOWN
+            <hr className="sticky-hr" />
+          </p>
+
+          <div className="middle">
+            <div className="mouse"></div>
+          </div>
 
           <div className="col-8 mc-col-one">
             <h1 className="mc-main-heading mc-content">
@@ -46,10 +56,30 @@ function Secone() {
               <img src={laptop} alt="" className="laptop-img" />
             </div>
           </div>
+
+          <div className="col-8 social-container">
+            <a href="/">
+              <span>FACEBOOK</span>
+            </a>
+            <a href="/">
+              <span>TWITTER</span>
+            </a>
+            <a href="/">
+              <span>INSTAGRAM</span>
+            </a>
+          </div>
           <div className="col-8">
-            <span>FACEBOOK</span> &nbsp;
-            <span>TWITTER</span> &nbsp;
-            <span>INSTAGRAM</span> 
+            <hr />
+          </div>
+
+          <div className="col-2 mc-icon rounded-circle">
+            <span>
+              <img src={mail} alt="Logo" className="icons" />
+            </span>
+          </div>
+
+          <div className="col-2 mc-icon-text">
+            <span>INFO@EXAMPLE.COM</span>
           </div>
         </div>
       </div>

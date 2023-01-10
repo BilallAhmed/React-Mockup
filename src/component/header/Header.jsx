@@ -16,7 +16,7 @@ function header() {
             <li className="nav-item active">
               <div className="container">
                 <div className="row icon-row">
-                  <div className="col-2 mc-icon bg-dark rounded-circle">
+                  <div className="col-2 mc-icon-header bg-dark rounded-circle">
                     <span>
                       <img src={mail} alt="Logo" className="icons" />
                     </span>
@@ -28,7 +28,7 @@ function header() {
                     </p>
                   </div>
                   <div
-                    className="col-2 mc-icon bg-dark rounded-circle"
+                    className="col-2 mc-icon-header bg-dark rounded-circle"
                     style={{ marginLeft: "1px" }}
                   >
                     <span>

@@ -21,6 +21,11 @@ function Secone() {
             <div className="mouse"></div>
           </div>
 
+          <div className="middle">
+            <a href="#about">
+              <div className="mouse"></div></a>
+          </div>
+
           <div className="col-8 mc-col-one">
             <h1 className="mc-main-heading mc-content">
               Make beautiful, <br />
